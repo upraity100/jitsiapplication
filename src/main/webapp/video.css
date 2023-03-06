@@ -1,0 +1,213 @@
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 1000;
+  /*background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));*/
+  padding: 5px;
+  padding-right: 100px;
+  text-align: right;
+}
+.logo{
+	 padding-right: 950px;
+	 height: 0px;
+	 width: 0px;
+}
+header nav a{
+  font-family: 'roboto';
+  padding: 3px 30px;
+  font-size: 1rem;
+  color: black;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+   margin: auto;
+   transition: 0.5s;
+   
+}
+header nav a:hover,
+header nav a.active {
+  background: #ff4d73;
+  color: white;
+  transition: 0.5s;
+  text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+}
+.text{
+           width: 100%;
+           height: 100%;
+           background-image: url("video1.gif");
+           background-size: cover;
+           background-position: center;
+           display: table;
+           background-attachment: fixed;
+           border-bottom: 5px solid #3a3b3c;
+
+}
+ .text h2{
+           
+              top: -130px;          
+              font-size: 40px;
+              font-weight: bold;
+              position: relative;
+              padding: 40px;
+              margin-right: 900px;
+              margin-left: 80px;
+              color: #1589ff;
+              
+            
+}
+.text h3{
+              top: -190px;  
+              width: 100%;        
+              font-weight: bold;
+              font-size: 23px;
+              position: relative;
+              color: #1589ff;
+              text-align: center;
+              padding: 40px;
+              padding-right: 876px;
+             
+}
+.text h4{
+              top: -260px;          
+              font-weight: bold;
+              position: relative;
+              font-size: 50px;
+              padding: 30px;
+              color: #1589ff;
+              text-align: center;
+              padding-right: 900px;
+}
+.text img{
+	 margin: 20px 20px;
+	 height: 100px;
+	 width: 100px;	
+}
+.button a{ 
+	 top: 75px; 
+	 font-weight: bold;
+     position: relative; 
+	 text-decoration: none;
+	 color: black;
+	 background: #ff4d73;
+	 display: block;
+	 padding: 10px;
+	 width: 180px;
+	 margin: auto;
+	 text-align: center;
+	 border-radius: 5px;
+	 transition: 0.5s;
+	 border: 1px solid #ff4d73;	 
+}
+.button a:hover{
+	border-radius: 5px;
+	text-decoration: none;
+	background: transparent;
+	color: white;
+}
+
+
+
+
+
+/* Form wrapper styling */
+
+.search-wrapper {
+    width: 550px;
+    margin: -40px 300px 50px 350px;
+    border-radius: 40px;
+    background-color: lightgrey;
+    box-shadow: 0 4px 20px -2px #e9e9e9;
+  
+}
+
+/* Form text input */
+
+.search-wrapper input {
+  padding-left: 20px;
+    width: 400px;
+    height: 40px;
+    padding: 10px 5px;
+    float: left;   
+    font: bold 13px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #81d8d0;
+    border-radius: 40px;
+    border-top-style: none;
+}
+.search-wrapper input:hover {
+    outline: 0;
+    background: #ccffff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+  padding-left: 20px;
+}
+
+.search-wrapper input:-moz-placeholder {
+    
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.search-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+  border-style: none;
+}   
+
+/* Form submit button */
+.search-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font: 13px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #ff4d73;
+    border-radius: 40px;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    transition: 0.5s;
+}  
+
+.search-wrapper button:hover{    
+    background: #198cff;
+    transition: 0.5s;
+}  
+
+.search-wrapper button:active,
+.search-wrapper button:focus{  
+    background: #ffa500;
+    outline: 0;  
+}
+
+.search-wrapper button:focus:before,
+.search-wrapper button:active:before{
+        border-right-color: yellow;
+        
+}     
+
+.search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+} 

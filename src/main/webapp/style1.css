@@ -1,0 +1,39 @@
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  padding: 5px;
+  padding-right: 100px;
+  text-align: right;
+  border-bottom: 3px solid #00c2cb;
+}
+.logo{
+	 padding-right: 950px;
+	 height: 15px;
+	 width: 50px;
+}
+header nav a{
+  font-family: 'roboto';
+  padding: 3px 30px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+   margin: auto;
+   transition: 0.5s;
+   
+}
+header nav a:hover,
+header nav a.active {
+  background: #ff4d73;
+  color: white;
+  transition: 0.5s;
+  text-decoration: none;
+}
